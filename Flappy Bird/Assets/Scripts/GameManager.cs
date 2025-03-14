@@ -12,9 +12,9 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] GameObject gameOverCanvas;
 
-    public float gravity = -0.005f;
-    public float speed = -0.001f;
-    public float birdJump = 1f;
+    public float gravity = -0.12f;
+    public float speed = -1.2f;
+    public float birdJump = 1.6f;
 
     public bool isStarted = false;
 

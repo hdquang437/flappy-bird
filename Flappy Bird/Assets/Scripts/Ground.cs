@@ -5,7 +5,7 @@ public class Ground : MonoBehaviour
     private GameManager manager;
 
     [SerializeField] private float width = 6f;
-    [SerializeField] private float speed = 1.3f;
+    [SerializeField] private float speed = 1.65f;
 
     private SpriteRenderer spriteRenderer;
 

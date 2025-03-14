@@ -6,7 +6,7 @@ public class Bird : MonoBehaviour
     private GameCollider birdCollider;
     private Animator anim;
 
-    public float rotationSpeed = 90f;
+    public float rotationSpeed = 20f;
     private bool onGround = false;
     private bool jump = false;
 
