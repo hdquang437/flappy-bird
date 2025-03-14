@@ -1,2 +1,5 @@
 /Flappy Bird/.vs
 Flappy Bird/Assembly-CSharp.csproj
+/Flappy Bird/Library
+/Flappy Bird/Temp
+/Flappy Bird/Logs
