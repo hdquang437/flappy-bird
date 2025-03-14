@@ -213,7 +213,7 @@ public class CollisionDetector
             if (e.isDeleted) continue;
             if (e.target.isDeleted) continue;
 
-            if (filterBlock && e.target.isBlockable == false)
+            if (filterBlock && e.target.isBlocking == false)
             {
                 continue;
             }
@@ -365,7 +365,7 @@ public class CollisionDetector
                 continue;
             }
 
-            if (e.target.isBlockable)
+            if (e.target.isBlocking)
             {
                 continue; // blocking collisions were handled already, skip them
             }
