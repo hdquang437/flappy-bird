@@ -16,7 +16,7 @@ public class GameCollider : MonoBehaviour
     // this object can collide with others 
     public bool isCollidable = true;
     // this object can block others
-    public bool isBlocking = true;
+    public bool isBlocker = true;
 
     public bool isDeleted = false;
     
